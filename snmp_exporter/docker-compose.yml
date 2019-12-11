@@ -1,0 +1,9 @@
+---
+version: '3.7'
+
+services:
+	snmp_exporter:
+		image: benkorichard/snmp_exporter
+		ports:
+			- 9116:9116
+		restart: always
